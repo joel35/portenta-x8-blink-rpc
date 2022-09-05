@@ -1,0 +1,11 @@
+services:
+  python-blink-rpc:
+    image: python-blink-rpc
+    build: .
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+      - LOOP_INTERVAL=1 # seconds
+    extra_hosts:
+      - "m4-proxy:host-gateway"
+    command: m4-proxy 5001
