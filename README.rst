@@ -13,7 +13,8 @@ Arduino side
 ------------
 
 1. `Upload the arduino-blink-rpc sketch to the x8 <https://docs.arduino.cc/tutorials/portenta-x8/uploading-sketches-m4>`_
-1. Built-in LED should start blinking.
+
+2. Built-in LED should start blinking.
 
 Linux side
 ----------
